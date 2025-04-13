@@ -1,3 +1,3 @@
-my_random_forest_1.joblib: for curb extraction
-my_random_forest_2_whole7.joblib: for entropy calculation of whole scene
-my_random_forest_3_ground7.joblib: for entropy calculation of ground scene
+- my_random_forest_1.joblib: for curb extraction
+- my_random_forest_2_whole7.joblib: for entropy calculation of whole scene
+- my_random_forest_3_ground7.joblib: for entropy calculation of ground scene
