@@ -1,4 +1,4 @@
-# Random Forest Classification Models
+## Random Forest Classification Models
 - my_random_forest_1.joblib: for curb extraction
     - 0 curb, 1 infrastructure, 2 other, 3 vegetation
 - my_random_forest_2_whole7.joblib: for entropy calculation of whole scene
