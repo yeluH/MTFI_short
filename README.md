@@ -19,13 +19,24 @@ Image segmentation and calculation of mask properties
 - [Statistical analysis of mask properties](#work_05_maskpropertiesstatisticsdistribution)
 
 Generation of Pseudo-absence points and processing image data
-- [Obtain GSV images of pseudo-absence points, apply SAM, calculate mask properties](#work_06_)
+- [Obtain GSV images of pseudo-absence points, apply SAM, calculate mask properties](#work_06_randompseudopoints_gsvimages_segmentation_maskfiltering)
+
+Construction of classification models
+-[Build classification models](#work_07_buildingclassificationmodel_curbextraction_entropycalculation)
+-[Apply classification models to extract curbs and calculate entropy values](#work_08_maskpropertiescalculation_entropycalculation)
+
+Preparation of variables
+-[Prepare curb-related variables and entropy variables](#work_09_variablespreparation_curbrelated_entropyvariables)
+-[Prepare traffic transport infrastructure variables](#Work_10_VariablesPreparation_TrafficTransportInfrastructureVariables)
+-[Variables transformation](#Work_11_VariablesTransformation)
 
 
-Mask properties calculation
-- Geometric
-- Spectral
-- Color distance
+
+Modelling
+-[Logistic regression analysis and random forest classification](#Work_12_ModellingPresenceofAccident)
+
+Data Visualization
+-[Map and illustration](#Work_13_DataVisualization_IllustrationFigures)
 
 Mask Classification
 - Masks labelling
