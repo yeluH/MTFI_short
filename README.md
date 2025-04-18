@@ -10,13 +10,17 @@ $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ## Table of Contents
 Preproccessing and image data preparation
-- [Obtain Google Street View Images](#-work_01_googlestreetviewimages_processing) 
+- [Obtain Google Street View Images](#work_01_googlestreetviewimages_processing) 
   
 Image segmentation and calculation of mask properties
 - [Apply Segment Anything Model(SAM) and filtering output masks](#work_02_imagesegmentation_maskfiltering)
-- Functions for filtering masks
+- [Detect contours and calculate mask properties](#work_03_contourdetection_maskpropertiescalculation)
+- [Interpret masks and label](#work_04_maskinterpretationandlabelling)
+- [Statistical analysis of mask properties](#work_05_maskpropertiesstatisticsdistribution)
 
-Pseudo points generation
+Generation of Pseudo-absence points and processing image data
+- [Obtain GSV images of pseudo-absence points, apply SAM, calculate mask properties](#work_06_)
+
 
 Mask properties calculation
 - Geometric
