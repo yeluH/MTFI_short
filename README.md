@@ -10,10 +10,10 @@ $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ## Table of Contents
 Preproccessing and image data preparation
-- [Obtain Google Street View Images](### Work_01_GoogleStreetViewImages_Processing) 
+- [Obtain Google Street View Images](#-work_01_googlestreetviewimages_processing) 
   
 Image segmentation and calculation of mask properties
-- [Apply Segment Anything Model(SAM) and filtering output masks](### Work_02_ImageSegmentation_MaskFiltering)
+- [Apply Segment Anything Model(SAM) and filtering output masks](#work_02_imagesegmentation_maskfiltering)
 - Functions for filtering masks
 
 Pseudo points generation
