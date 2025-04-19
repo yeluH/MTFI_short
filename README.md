@@ -39,6 +39,7 @@ $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Data sources:
     - Google Street View Images, accessed through static API by the [Google Maps Platform](https://developers.google.com/maps/documentation/streetview/overview).
     - Traffic, transport and infrastructure datasets, obtained from [Open Data Zurich](https://data.stadt-zuerich.ch/).
+    - [Open Street Map](https://www.openstreetmap.org)
 - Model application:
     - [Segment Anything Model](https://github.com/facebookresearch/segment-anything).
 - Software used for data preprocessing:
@@ -88,9 +89,7 @@ $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #### Work_03_ContourDetection_MaskPropertiesCalculation
 - Writing functions to detect, filter and plot contours
-- Writing functions to calculate mask properties, including geometric attributes and spectral features
-- Writing functions to calculate color distance between RGB points to gray line
-- Writing functions to summarize abovementioned properties
+- Writing functions to calculate mask properties
   
 #### Work_04_MaskInterpretationandLabelling
 - Selecting images for labelling
@@ -123,37 +122,27 @@ $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Summarising curb related variables, entropy variables 
 
 #### Work_10_VariablesPreparation_TrafficTransportInfrastructureVariables
-- Preparing
+- Preparing traffic count, and other traffic transport infrastructure variables and summarising
 
 #### Work_11_VariablesTransformation
-
+- Performing data transformation for both numerical and categorical variables
 
 #### Work_12_ModellingPresenceofAccident
-
+- Checking correlation and multicollinearity of variables and building independent variable set
+- Performing logistic regression analysis
+- Applying random forest classification
 
 #### Work_13_DataVisualization_IllustrationFigures
-
-
+- Plotting map for data visualization
+- Preparing illustration figures for examples of SAM application and curb extraction
 
 #### mtp_function_yl
-
-
-
-
-
-
-
-$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$
-
-## Requirement
-
-
-
-$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$
-
-## Links
-
-
-
-
+- Functions for SAM application, mask conversion and output
+- Functions for contour detection, filtering and plotting
+- Functions for calculation of mask/contour properties, including geometric attributes and spectral features
+- Functions for calculation of color distance between RGB points to gray line
+- Functions for summarising above-mentioned properties
+- Functions for calculating entropy and image entropy
+- Functions for printing result of regression
+- (Functions for performing feature selection, checking distribution of variables)
 
