@@ -39,7 +39,7 @@ $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Data sources:
     - Google Street View Images, accessed through static API by the [Google Maps Platform](https://developers.google.com/maps/documentation/streetview/overview).
     - Traffic, transport and infrastructure datasets, obtained from [Open Data Zurich](https://data.stadt-zuerich.ch/).
-    - [Open Street Map](https://www.openstreetmap.org)
+    - Supplementary traffic, transport and infrastructure data, queried from [Open Street Map](https://www.openstreetmap.org)
 - Model application:
     - [Segment Anything Model](https://github.com/facebookresearch/segment-anything).
 - Software used for data preprocessing:
