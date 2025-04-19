@@ -5,3 +5,5 @@
     - 0 building, 1 curb, 2 infrastructure, 3 means_of_transportation, 4 other, 5 sky, 6 vegetation
 - my_random_forest_3_ground7(_new1).joblib: for entropy calculation of ground scene
     - 0 bike lane, 1 curb, 2 ground_sign, 3 manhole, 4 other, 5 pavement, 6 road
+- my_random_forest_1_cnvif60.joblib
+    - 0 absence of accident, 1 presence of accident
