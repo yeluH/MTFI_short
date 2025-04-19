@@ -59,29 +59,77 @@ $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     - [pyproj](https://pyproj4.github.io/pyproj/stable/)
     - [PIL](https://pypi.org/project/pillow/)
     - [statsmodels](https://www.statsmodels.org/stable/index.html)
+    - [geoplot](https://residentmario.github.io/geoplot/)
+    - [geopandas](https://geopandas.org/en/stable/)
+    - [glob](https://docs.python.org/3/library/glob.html)
+    - [shapefile](https://pypi.org/project/pyshp/)
+    - [folium](https://python-visualization.github.io/folium/latest/)
+    - [pathlib](https://docs.python.org/3/library/pathlib.html)
+    - [cartopy](https://pypi.org/project/Cartopy/)
+    - [math](https://docs.python.org/3/library/math.html)
+    - [cmasher](https://pypi.org/project/cmasher/)
+    - [earthpy](https://earthpy.readthedocs.io/en/latest/)
+    - [urllib](https://docs.python.org/3/library/urllib.html)
+    - [tabulate](https://pypi.org/project/tabulate/)
+    - [os](https://docs.python.org/3/library/os.html)
+    - [torchvision](https://pypi.org/project/torchvision/)
+    - [google_streetview](https://pypi.org/project/google-streetview/)
 
+$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$
 ## Scripts
-
-
 #### Work_01_GoogleStreetViewImages_Processing
-
-
+- Transforming location to coordinates
+- Accessing Google Street View (GSV) images using API
+- Setting identifier to location points
 
 #### Work_02_ImageSegmentation_MaskFiltering
+- Applying Segment Anything Model (SAM) for image segmentation
+- Writing functions to convert and output masks, to filter out overlapping subset masks
+
 #### Work_03_ContourDetection_MaskPropertiesCalculation
+- Writing functions to detect, filter and plot contours
+- Writing functions to calculate mask properties, including geometric attributes and spectral features
+- Writing functions to calculate color distance between RGB points to gray line
+- Writing functions to summarize abovementioned properties
+  
 #### Work_04_MaskInterpretationandLabelling
+- Selecting images for labelling
+- Writing functions to interpret and label masks
+
 #### Work_05_MaskPropertiesStatisticsDistribution
+- Summarising all labelled masks
+- Categorising labels into label groups
+- Checking statistical distribution of mask properties for different label groups
+- Comparing distribution of mask properties between curb and other label groups
 
 #### Work_06_RandomPseudoPoints_GSVImages_Segmentation_MaskFiltering
+- Loading generated random pseudo points and converting to coordinates
+- Accessing GSV images of random pseudo points
+- Setting identifier for random pseudo points
+- Applying SAM and filtering masks using written functions for random pseudo points
 
 #### Work_07_BuildingClassificationModel_CurbExtraction_EntropyCalculation
+- Constructing classification models for extraction of curbs
+- Constructing classification models for calculating whole scene entropy
+- Constructing classification models for calculating ground scene entropy
+
 #### Work_08_MaskPropertiesCalculation_EntropyCalculation
+- Calculating mask properties of all mask output from both accident and pseudo locations
+- Applying classification models to predict label group
+- Adding calculation of image entropy
+- Calculating entropy variables and summarising together
 
 #### Work_09_VariablesPreparation_CurbRelated_EntropyVariables
+- Summarising curb related variables, entropy variables 
+
 #### Work_10_VariablesPreparation_TrafficTransportInfrastructureVariables
+- Preparing
+
 #### Work_11_VariablesTransformation
 
+
 #### Work_12_ModellingPresenceofAccident
+
 
 #### Work_13_DataVisualization_IllustrationFigures
 
